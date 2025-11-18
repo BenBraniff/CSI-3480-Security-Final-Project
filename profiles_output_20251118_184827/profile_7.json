@@ -1,0 +1,17 @@
+{
+  "student_id": "S10007",
+  "name": "Taylor Chen",
+  "age": 23,
+  "school": "Prairie State College",
+  "major": "Environmental Science",
+  "graduation_year": 2025,
+  "gpa": 3.46,
+  "email": "taylor.chen@prairiestatecollege.edu",
+  "city": "Greencroft",
+  "state": "IL",
+  "interests": [
+    "cycling",
+    "debate",
+    "design"
+  ]
+}

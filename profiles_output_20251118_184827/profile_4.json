@@ -1,0 +1,17 @@
+{
+  "student_id": "S10004",
+  "name": "Avery Thompson",
+  "age": 20,
+  "school": "Grandview University",
+  "major": "Finance",
+  "graduation_year": 2030,
+  "gpa": 3.56,
+  "email": "avery.thompson@grandviewuniversity.edu",
+  "city": "Harbor City",
+  "state": "CA",
+  "interests": [
+    "volunteering",
+    "teaching",
+    "design"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "student_id": "S10006",
+  "name": "Parker Johnson",
+  "age": 20,
+  "school": "Summit Technical University",
+  "major": "Information Systems",
+  "graduation_year": 2029,
+  "gpa": 2.97,
+  "email": "parker.johnson@summittechnicaluniversity.edu",
+  "city": "Lakeview",
+  "state": "MN",
+  "interests": [
+    "debate",
+    "acting",
+    "yoga"
+  ]
+}

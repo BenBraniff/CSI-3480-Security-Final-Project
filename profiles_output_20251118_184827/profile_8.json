@@ -1,0 +1,17 @@
+{
+  "student_id": "S10008",
+  "name": "Emery Foster",
+  "age": 18,
+  "school": "Harbor Bay University",
+  "major": "Mechanical Engineering",
+  "graduation_year": 2026,
+  "gpa": 3.88,
+  "email": "emery.foster@harborbayuniversity.edu",
+  "city": "Northport",
+  "state": "WA",
+  "interests": [
+    "theater",
+    "cooking",
+    "chess"
+  ]
+}
