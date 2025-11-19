@@ -129,19 +129,13 @@ def generate_profiles(n: int, start_id: int = 10001, seed: Optional[int] = None)
 
 
 if __name__ == "__main__":
-    # Generate 10 profiles with no fixed seed (different each time) and create timestamped output.
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
+    # Generate 10 profiles with no fixed seed (different each time).
     demo_profiles = generate_profiles(10, start_id=10001, seed=None)
-    out_dir = os.path.join(os.path.dirname(__file__), f"profiles_output_{timestamp}")
-    written = profiles_to_json(demo_profiles, output_dir=out_dir)
 
-    # Also write a combined JSON file for convenience with timestamp.
-    combined_path = os.path.join(os.path.dirname(__file__), f"generated_profiles_{timestamp}.json")
+    # Write ONLY the combined JSON file (no timestamp).
+    combined_path = os.path.join(os.path.dirname(__file__), "generated_profiles.json")
     with open(combined_path, "w", encoding="utf-8") as fh:
         json.dump(demo_profiles, fh, indent=2)
 
-    print(f"Wrote {len(written)} files to {out_dir}")
-    for p in written:
-        print(" -", p)
-    print(f"Also wrote combined file: {combined_path}")
+    print(f"Wrote combined file: {combined_path}")
+
