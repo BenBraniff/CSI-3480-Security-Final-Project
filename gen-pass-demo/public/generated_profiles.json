@@ -1,0 +1,172 @@
+[
+  {
+    "student_id": "S10001",
+    "name": "Skyler Park",
+    "age": 24,
+    "school": "Westbridge University",
+    "major": "Computer Science",
+    "graduation_year": 2029,
+    "gpa": 2.95,
+    "email": "skyler.park@westbridgeuniversity.edu",
+    "city": "Maplewood",
+    "state": "OH",
+    "interests": [
+      "investing",
+      "theater",
+      "kayaking"
+    ]
+  },
+  {
+    "student_id": "S10002",
+    "name": "Casey Nguyen",
+    "age": 21,
+    "school": "Northfield College",
+    "major": "Electrical Engineering",
+    "graduation_year": 2025,
+    "gpa": 3.89,
+    "email": "casey.nguyen@northfieldcollege.edu",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "interests": [
+      "cycling",
+      "music",
+      "tutoring"
+    ]
+  },
+  {
+    "student_id": "S10003",
+    "name": "Finley Carter",
+    "age": 19,
+    "school": "Eastlake Institute",
+    "major": "Biology",
+    "graduation_year": 2030,
+    "gpa": 3.55,
+    "email": "finley.carter@eastlakeinstitute.edu",
+    "city": "Riverton",
+    "state": "NJ",
+    "interests": [
+      "3D printing",
+      "reading",
+      "teaching"
+    ]
+  },
+  {
+    "student_id": "S10004",
+    "name": "Dakota Patel",
+    "age": 21,
+    "school": "Grandview University",
+    "major": "Finance",
+    "graduation_year": 2029,
+    "gpa": 3.86,
+    "email": "dakota.patel@grandviewuniversity.edu",
+    "city": "Harbor City",
+    "state": "CA",
+    "interests": [
+      "debate",
+      "conservation",
+      "hiking"
+    ]
+  },
+  {
+    "student_id": "S10005",
+    "name": "Casey Thompson",
+    "age": 20,
+    "school": "Riverside College",
+    "major": "Psychology",
+    "graduation_year": 2027,
+    "gpa": 3.58,
+    "email": "casey.thompson@riversidecollege.edu",
+    "city": "Elm Grove",
+    "state": "WI",
+    "interests": [
+      "photography",
+      "running",
+      "policy"
+    ]
+  },
+  {
+    "student_id": "S10006",
+    "name": "Casey Rivera",
+    "age": 23,
+    "school": "Summit Technical University",
+    "major": "Information Systems",
+    "graduation_year": 2030,
+    "gpa": 3.1,
+    "email": "casey.rivera@summittechnicaluniversity.edu",
+    "city": "Lakeview",
+    "state": "MN",
+    "interests": [
+      "puzzles",
+      "running",
+      "cooking"
+    ]
+  },
+  {
+    "student_id": "S10007",
+    "name": "Rowan Morgan",
+    "age": 23,
+    "school": "Prairie State College",
+    "major": "Environmental Science",
+    "graduation_year": 2025,
+    "gpa": 3.98,
+    "email": "rowan.morgan@prairiestatecollege.edu",
+    "city": "Greencroft",
+    "state": "IL",
+    "interests": [
+      "fieldwork",
+      "community service",
+      "running"
+    ]
+  },
+  {
+    "student_id": "S10008",
+    "name": "Taylor Rivera",
+    "age": 21,
+    "school": "Harbor Bay University",
+    "major": "Mechanical Engineering",
+    "graduation_year": 2025,
+    "gpa": 3.72,
+    "email": "taylor.rivera@harborbayuniversity.edu",
+    "city": "Northport",
+    "state": "WA",
+    "interests": [
+      "design",
+      "hiking",
+      "3D printing"
+    ]
+  },
+  {
+    "student_id": "S10009",
+    "name": "Sloan Brooks",
+    "age": 21,
+    "school": "Lakeshore University",
+    "major": "Marketing",
+    "graduation_year": 2026,
+    "gpa": 3.17,
+    "email": "sloan.brooks@lakeshoreuniversity.edu",
+    "city": "Briarwood",
+    "state": "TX",
+    "interests": [
+      "cycling",
+      "cooking",
+      "investing"
+    ]
+  },
+  {
+    "student_id": "S10010",
+    "name": "Peyton Garcia",
+    "age": 22,
+    "school": "Crestview College",
+    "major": "Mathematics",
+    "graduation_year": 2026,
+    "gpa": 3.44,
+    "email": "peyton.garcia@crestviewcollege.edu",
+    "city": "Stonebridge",
+    "state": "PA",
+    "interests": [
+      "music",
+      "teaching",
+      "fieldwork"
+    ]
+  }
+]
