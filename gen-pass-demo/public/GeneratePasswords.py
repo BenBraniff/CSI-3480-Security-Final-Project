@@ -82,5 +82,14 @@ def generate_passwords_for_profiles(json_file: str,
 
 
 # Example usage:
-pw = generate_passwords_for_profiles("generated_profiles.json", "clean_passwords.json")
-print(json.dumps(pw, indent=2))
+import os
+
+if __name__ == "__main__":
+    base = os.path.dirname(__file__)
+
+    profiles_path = os.path.join(base, "generated_profiles.json")
+    output_path = os.path.join(base, "clean_passwords.json")
+
+    pw = generate_passwords_for_profiles(profiles_path, output_path)
+    print(json.dumps(pw, indent=2))
+
