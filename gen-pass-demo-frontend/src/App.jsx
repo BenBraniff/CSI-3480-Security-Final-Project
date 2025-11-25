@@ -34,16 +34,35 @@ function App() {
     setLoadingProfiles(false);
   };
 
+  // to load reocurring passwords
+  // const handleLoadPasswords = async () => {
+  //   setLoadingPasswords(true);
+  //   try {
+  //     const data = await loadPasswords();
+  //     setPasswords(data);
+  //   } catch (err) {
+  //     console.error("Error loading passwords:", err);
+  //   }
+  //   setLoadingPasswords(false);
+  // };
+
+  // to generate new passwords every button press
   const handleLoadPasswords = async () => {
     setLoadingPasswords(true);
     try {
+      // Tell backend to run GeneratePasswords.py
+      await fetch("http://localhost:5001/run-passwords");
+
+      // Then fetch updated JSON file
       const data = await loadPasswords();
       setPasswords(data);
     } catch (err) {
-      console.error("Error loading passwords:", err);
+      console.error("Error generating passwords:", err);
     }
     setLoadingPasswords(false);
   };
+
+
 
   const CARD_STYLE = {
     width: "400px",
