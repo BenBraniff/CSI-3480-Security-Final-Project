@@ -12,7 +12,8 @@ def run_passwords():
         # Build absolute path to GeneratePasswords.py
         base_dir = os.path.abspath(os.path.dirname(__file__))  # /backend
         frontend_public = os.path.abspath(os.path.join(base_dir, "..", "gen-pass-demo-frontend", "public"))
-        script_path = os.path.join(frontend_public, "GeneratePasswords.py")
+        # script_path = os.path.join(frontend_public, "GeneratePasswords.py")
+        script_path = os.path.join(frontend_public, "GeneratePasswordsAI.py")
 
         print("Running:", script_path)
 
