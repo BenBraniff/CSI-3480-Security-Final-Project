@@ -7,3 +7,6 @@ We plan to introduce how AI impacts security and privacy, then demonstrate a pro
 
 
 Our methodology includes creating fake profiles, extracting keywords, and generating password guesses, with the option to expand to larger datasets or more advanced logic.
+
+
+![profiles loaded](/Media/profiles-loaded.png)
